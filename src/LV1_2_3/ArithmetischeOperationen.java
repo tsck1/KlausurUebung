@@ -38,7 +38,7 @@ public class ArithmetischeOperationen {
         System.out.println(add(9,9));
      // 2.3 Aufruf von add über Methode "printNumber"
         printNumber(add(31,13));
-        printNumber(Math.round(divide(2,7)*100)/100D);
+        printNumber(Math.round(divide(2,0)*100)/100D);
         printNumber(mutiply(5,5));
         printNumber(subtract(2,7));
 
@@ -58,7 +58,12 @@ public class ArithmetischeOperationen {
         return r-s;
     }
     public static double divide(double r, int s){
+        if (s !=0){
         return  r/s;
+        }
+        return 0;
     }
+
+
 
 }

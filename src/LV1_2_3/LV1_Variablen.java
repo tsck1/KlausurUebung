@@ -12,6 +12,17 @@ public class LV1_Variablen {
         System.out.println("a= " +a+ " ,z = " +z+ " und das Wetter ist schön ="+weather);
         System.out.println(Thomas+" ist der Anfangsbuchstabe von "+firstname);
 
+        boolean iAmGsund=false;
+        if(iAmGsund){
+            System.out.println("Yes");
+        }else {
+            System.out.println("NOOOOO");
+        }
+        String tag = "Freitag";
+        String zeit = "Nacht";
+
+
 
     }
+
 }
