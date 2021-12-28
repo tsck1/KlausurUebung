@@ -19,6 +19,7 @@ public class ZinsDemo {
         kontostand= 5000;
         zinsen=3;
         Zinsertrag= berechneZinsertrag(kontostand, zinsen);
+        System.out.println(berechneZinsertrag(kontostand,zinsen));
         printZinsen(kontostand,zinsen,Zinsertrag);
     }
     public static double berechneZinsertrag(double kontostand, double zinsen){
