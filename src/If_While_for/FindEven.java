@@ -29,7 +29,7 @@ public class FindEven {
         geradeZahl();
         ungeradeZahl();
     }
-
+    //Zusatzaufgabe Folie 59
     public static int geradeZahl(){
         for (int z=0; z<=14;z++){
             if (z%2==0){
@@ -39,6 +39,7 @@ public class FindEven {
 
         return 0;
     }
+    //Zusatzaufgabe Folie 59
     public static int ungeradeZahl(){
         for (int z=0; z<=14;z++){
             if (z%2 !=0){
