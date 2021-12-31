@@ -1,6 +1,6 @@
 package If_While_for;
 
-public class Lotto {
+public class Kalender {
     public static void main(String[] args) {
 
         int tageImMonat[]={31,28,31,30,31,30,
