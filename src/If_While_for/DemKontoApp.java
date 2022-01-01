@@ -6,7 +6,9 @@ public class DemKontoApp {
         System.out.println(Konto.s_anzahlKonto);
 
         Konto p1= new Konto ("Max Mustermann");
+        System.out.println(Konto.s_anzahlKonto);
         Konto p2= new Konto("Susi Sorglos");
+        System.out.println(Konto.s_anzahlKonto);
        p1.print();
        p1.aufbuchen(30000);
        p1.print();
