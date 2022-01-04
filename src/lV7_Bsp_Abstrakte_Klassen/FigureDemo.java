@@ -4,6 +4,7 @@ public class FigureDemo {
 
     public static void main(String[] args) {
 
+
         FigureManager fm = new FigureManager();
 
         fm.add(new Circle(15));
