@@ -14,7 +14,7 @@ public class DemoLandApp {
         oesterreich.add(steiermark);
         oesterreich.add(burgenland);
 
-        System.out.println("BSP von Österreich: "+oesterreich.getBruttoSozialProdukt());System.out.println("BSP von Österreich: "+oesterreich.getBruttoSozialProdukt());
+        System.out.println("BSP von Österreich: "+oesterreich.getBruttoSozialProdukt());
 
         Bundesland bayern = new Bundesland(1_000_000);
         Bundesland berlin = new Bundesland(2_000_000);
@@ -22,6 +22,8 @@ public class DemoLandApp {
         Bundesstaat de = new Bundesstaat();
         de.add(bayern);
         de.add(berlin);
+
+        System.out.println("BSP von DE: "+de.getBruttoSozialProdukt());
 
 
 
