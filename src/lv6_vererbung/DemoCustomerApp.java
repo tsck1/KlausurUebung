@@ -17,5 +17,11 @@ public class DemoCustomerApp {
 
         customer1.print();
         customer2.print();
+
+        customer1.addAddress(new Address("Weizerstrasse 1","8101","Graz","Austria"));
+        customer2.addAddress(new Address("Hausberg 13","9546","BKK","Austria"));
+
+        System.out.println("customer 1= " +customer1.toString()+customer2.toString());
+
     }
 }

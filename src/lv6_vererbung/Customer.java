@@ -23,6 +23,7 @@ public class Customer extends Person {
         this.addresses = addresses;
     }
 
+
     public void addAddress(Address a) {
         addresses.add(a);
     }
